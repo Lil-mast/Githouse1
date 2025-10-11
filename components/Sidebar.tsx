@@ -14,7 +14,7 @@ const Sidebar: React.FC = () => {
                  <div className="flex items-center space-x-3">
                     <img className="h-10 w-10 rounded-full" src="https://i.pravatar.cc/150?img=12" alt="User Avatar" />
                     <div>
-                        <p className="text-sm font-semibold text-white">JohnDo's Hub</p>
+                        <p className="text-sm font-semibold text-white">Sidney's Hub</p>
                         <p className="text-xs text-brand-green">Open to work</p>
                     </div>
                 </div>
@@ -27,7 +27,7 @@ const Sidebar: React.FC = () => {
                 </a>
                  <a href="#" className="flex items-center px-4 py-2 text-sm font-medium text-white bg-brand-gray-light rounded-md">
                     <img className="h-5 w-5 mr-3 rounded-full" src="https://i.pravatar.cc/150?img=12" alt="Community logo"/>
-                    JohnDo's Hub
+                    Sidney's Hub
                 </a>
                 <p className="px-4 pt-4 text-xs font-semibold text-gray-500 uppercase tracking-wider">Connect with DevBlue</p>
                 <a href="#" className="flex items-center px-4 py-2 text-sm font-medium text-gray-300 rounded-md hover:bg-brand-gray-light">

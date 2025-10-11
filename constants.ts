@@ -8,12 +8,12 @@ export const STATS_DATA: Stat[] = [
 ];
 
 export const RECOMMENDED_USERS: User[] = [
-  { name: 'Jane Smith', handle: 'janesmith', avatarUrl: 'https://i.pravatar.cc/150?img=1', role: 'UX Designer' },
-  { name: 'Olet Fapohunda', handle: 'oletf', avatarUrl: 'https://i.pravatar.cc/150?img=2', role: 'Frontend Dev' },
+  { name: 'Andrew Kim', handle: 'Andi', avatarUrl: 'https://i.pravatar.cc/150?img=1', role: 'Project Author' },
+  { name: 'Charles Mbugua ', handle: 'Charles', avatarUrl: 'https://i.pravatar.cc/150?img=2', role: 'Maintainer' },
 ];
 
 export const COMMUNITY_DATA: Community[] = [
-  { name: 'JaneSmith - "NauraNat"', description: 'Lead Designer at Vercel', imageUrl: 'https://picsum.photos/seed/community1/400/200', members: 1289 },
+  { name: 'Andi - "NauraNat"', description: 'Technical Lead at Salamander', imageUrl: 'https://picsum.photos/seed/community1/400/200', members: 1289 },
   { name: 'Trendi: New Quantum..', description: 'Exploring the future of computing', imageUrl: 'https://picsum.photos/seed/community2/400/200', members: 4289 },
   { name: 'Pytho X', description: 'Python for AI and Data Science', imageUrl: 'https://picsum.photos/seed/community3/400/200', members: 815 },
   { name: 'BlueStack X', description: 'Next-gen cloud infrastructure', imageUrl: 'https://picsum.photos/seed/community4/400/200', members: 2300 },
@@ -27,10 +27,10 @@ export const MEMBER_DATA: User[] = [
 ];
 
 export const MODERATION_USERS_DATA: ModerationUser[] = [
-  { name: 'John Doe', handle: 'johndoe', avatarUrl: 'https://i.pravatar.cc/150?img=9', role: 'User', status: 'Active', lastActivity: '2 hours ago' },
-  { name: 'Jane Smith', handle: 'janesmith', avatarUrl: 'https://i.pravatar.cc/150?img=1', role: 'Admin', status: 'Active', lastActivity: '5 minutes ago' },
-  { name: 'Mike Johnson', handle: 'mikej', avatarUrl: 'https://i.pravatar.cc/150?img=10', role: 'User', status: 'Suspended', lastActivity: '1 day ago' },
-  { name: 'Sarah Adams', handle: 'saraha', avatarUrl: 'https://i.pravatar.cc/150?img=11', role: 'Moderator', status: 'Active', lastActivity: '30 minutes ago' },
+  { name: 'Sharon Murugi', handle: 'sharonmurugi', avatarUrl: 'https://i.pravatar.cc/150?img=9', role: 'Project Author', status: 'Active', lastActivity: '2 hours ago' },
+  { name: 'Sidney Baraka', handle: 'mathncode', avatarUrl: 'https://i.pravatar.cc/150?img=1', role: 'Community Manager', status: 'Active', lastActivity: '5 minutes ago' },
+  { name: 'Steve Kingoro', handle: 'stevo', avatarUrl: 'https://i.pravatar.cc/150?img=10', role: 'User', status: 'Suspended', lastActivity: '1 day ago' },
+  { name: 'Randy Lutta', handle: 'randy', avatarUrl: 'https://i.pravatar.cc/150?img=11', role: 'User', status: 'Active', lastActivity: '30 minutes ago' },
 ];
 
 export const ACTIVITY_CHART_DATA: ActivityData[] = [
