@@ -2,7 +2,7 @@
 
 This document outlines the key areas to extend or customize when building new features inside DevHub. It assumes you are already able to run the project via `npm run dev`.
 
-## 1. Global Styling & Theme
+## 1. Global Styling & Theme.
 
 - **Tailwind classes** are applied directly within components. Stay consistent with the `brand-*` color tokens already used.
 - **Theme toggle:** `components/Header.tsx` contains the sun/moon button. Persist theme choice by writing to `localStorage` and reading it during app load if you need state to survive refreshes.
